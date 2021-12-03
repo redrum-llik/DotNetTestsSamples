@@ -36,9 +36,9 @@ namespace TestProject2
 
         
 [Test]
-public void NunitRangeTest(
-    [Values(1,2,3)] int x,
-    [Range(1,5,1)] double d)
+public void MyTest(
+    [Values(1, 2, 3)] int x,
+    [Range(0.2, 0.6, 0.2)] double d)
 {
     Assert.Pass();
 }
