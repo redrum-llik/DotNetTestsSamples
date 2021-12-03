@@ -21,7 +21,7 @@ public class TestDataGenerator : IEnumerable<object[]>
     IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 }
 
-public class ParameterizedTestsClassData
+public class ParameterizedTests
 {
     public bool IsOddNumber(int number)
     {
