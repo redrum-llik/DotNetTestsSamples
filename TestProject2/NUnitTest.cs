@@ -36,7 +36,7 @@ namespace TestProject2
 
         
 [Test]
-public void MyTest(
+public void NUnitRangeTest(
     [Values(1, 2, 3)] int x,
     [Range(0.2, 0.6, 0.2)] double d)
 {
