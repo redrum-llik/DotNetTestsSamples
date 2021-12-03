@@ -23,13 +23,27 @@ namespace TestProject2
         {
             Assert.Pass();
         }
+        
+        
+        
         [Test, Sequential]
-public void NunitSequentialParametersTest(
-    [Values(1,2,3)] int x,
-    [Values("A","B")] string s)
-{
-    Assert.Pass();
-}
+        public void NunitSequentialParametersTest(
+         [Values(1,2,3)] int x,
+        [Values("A","B")] string s)
+        {
+         Assert.Pass();
+        }
 
+        
+        [Test]
+        public void NUNitRangeTest(
+      [Values(1,2,3) int x,
+      [Range(0.2,0.6,0.2] double d)
+        {
+        Assert.Fail();
+        }
+        
+        
+        
     }
 }
