@@ -37,8 +37,8 @@ namespace TestProject2
         
         [Test]
         public void NUNitRangeTest(
-      [Values(1,2,3) int x,
-      [Range(0.2,0.6,0.2)] double d)
+      [Values(1,2,3)] int x,
+      [Range(0.2,0.6,0.2] double d)
         {
         Assert.Fail();
         }
