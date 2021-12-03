@@ -24,7 +24,7 @@ namespace TestProject2
             Assert.Pass();
         }
         [Test, Sequential]
-public void MyTest(
+public void NunitSequentialParametersTest(
     [Values(1,2,3)] int x,
     [Values("A","B")] string s)
 {
