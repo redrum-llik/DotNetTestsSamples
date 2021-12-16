@@ -10,7 +10,7 @@ namespace TestProject1
     public class Traitexample
     {
         [Fact]
-[Trait("Category","Unit")]
+[Trait("Category1","Unit")]
 public void Test1(){
    }
 
