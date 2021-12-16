@@ -14,7 +14,7 @@ namespace TestProject1
         {
         }
 
-        [Theory]
+        [Theory(DisplayName = "dpnameTheory GET /api/books returns http status code 200")]
         [InlineData("a")]
         [InlineData("b")]
         [InlineData("c")]
@@ -33,7 +33,7 @@ namespace TestProject1
         {
         }
 
-        [Theory]
+        [Theory(DisplayName = "dpnameTheory GET /api/books returns http status code 200")]
         [InlineData("a")]
         [InlineData("b")]
         [InlineData("c")]
