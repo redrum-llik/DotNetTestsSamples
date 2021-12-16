@@ -18,6 +18,7 @@ namespace TestProject1
         [InlineData("a")]
         [InlineData("b")]
         [InlineData("c")]
+        [InlineData("d")]
         public void Test2(string str)
         {
             Assert.Equal(str, "a");
