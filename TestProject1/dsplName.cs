@@ -20,6 +20,7 @@ namespace TestProject1
         [InlineData("c")]
         public void Test2(string str)
         {
+            Assert.Equal(str, "a");
         }
     }
 }
