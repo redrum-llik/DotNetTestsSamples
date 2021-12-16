@@ -12,16 +12,16 @@ namespace TestProject1
         [Fact]
 [Trait("Category","Unit")]
 public void Test1(){
-    ...}
+   }
 
 [Fact]
 [Trait("Category","Integration")]
 public void Test2(){
-    ...}
+    }
 
 [Fact]
 [Trait("Category","UI")]
 public void Test3(){
-    ...}
+    }
     }
 }
