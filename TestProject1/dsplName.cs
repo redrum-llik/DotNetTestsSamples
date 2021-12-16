@@ -9,7 +9,7 @@ namespace TestProject1
 {
     public class dsplNameXunit
     {
-        [Fact]
+        [Fact(DisplayName = "dpname GET /api/books returns http status code 200")]
         public void Test1()
         {
         }
