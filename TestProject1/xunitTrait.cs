@@ -10,17 +10,17 @@ namespace TestProject1
     public class Traitexample
     {
         [Fact]
-//[Trait("Category","Unit")]
+[Trait("Category","Unit")]
 public void Test1(){
    }
 
 [Fact]
-//[Trait("Category","Integration")]
+[Trait("Category","Integration")]
 public void Test2(){
     }
 
 [Fact]
-//[Trait("Category","UI")]
+[Trait("Category","UI")]
 public void Test3(){
     }
     }
