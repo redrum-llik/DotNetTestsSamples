@@ -10,6 +10,7 @@ namespace TestProject2
         }
 
         [Test]
+        [Category("Short")]
         public void Test1()
         {
             Assert.Pass();
@@ -17,6 +18,7 @@ namespace TestProject2
         
         
         [Test]
+         [Category("Short")]
         [TestCase("chrome", "72.0", "Windows 10")]
         [TestCase("internet explorer", "11.0", "Windows 10")]
         public void Test2(string str1, string str2, string str3)
@@ -27,6 +29,7 @@ namespace TestProject2
         
         
         [Test, Sequential]
+         [Category("Long")]
         public void NunitSequentialParametersTest(
          [Values(1,2,3)] int x,
         [Values("A","B")] string s)
@@ -36,6 +39,7 @@ namespace TestProject2
 
         
 [Test]
+[Category("Long")]
 public void NUnitRangeTest(
     [Values(1, 2, 3)] int x,
     [Range(0.2, 0.6, 0.2)] double d)
