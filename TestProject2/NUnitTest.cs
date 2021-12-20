@@ -9,11 +9,11 @@ namespace TestProject2
         {
         }
 
-        [Test, Name("NUNitDIsplName")]
+        [Test]
         [Category("Short")]
         public void Test1withdisplName()
         {
-            Assert.Fail();
+            Assert.Pass();
         }
         
         
@@ -26,7 +26,7 @@ namespace TestProject2
             Assert.Pass();
         }
         
-        
+
         
         [Test, Sequential]
          [Category("Long")]
