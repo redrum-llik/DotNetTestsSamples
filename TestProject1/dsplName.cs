@@ -9,12 +9,12 @@ namespace TestProject1
 {
     public class dsplNameXunit1
     {
-        [Fact(DisplayName = "dpnameFact GET /api/books returns http status code 200")]
+        [Fact(DisplayName = "dpnameFact GET /api/books returns http status code 200-1")]
         public void Test1()
         {
         }
 
-        [Theory(DisplayName = "dpnameTheory GET /api/books returns http status code 200")]
+        [Theory(DisplayName = "dpnameTheory GET /api/books returns http status code 200-2")]
         [InlineData("a")]
         [InlineData("b")]
         [InlineData("c")]
@@ -28,12 +28,12 @@ namespace TestProject1
     
     public class dsplNameXunit2
     {
-        [Fact(DisplayName = "dpnameFact GET /api/books returns http status code 200")]
+        [Fact(DisplayName = "dpnameFact GET /api/books returns http status code 200-3")]
         public void Test1()
         {
         }
 
-        [Theory(DisplayName = "dpnameTheory GET /api/books returns http status code 200")]
+        [Theory(DisplayName = "dpnameTheory GET /api/books returns http status code 200-4")]
         [InlineData("a")]
         [InlineData("b")]
         [InlineData("c")]
