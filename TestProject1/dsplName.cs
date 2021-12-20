@@ -12,6 +12,7 @@ namespace TestProject1
         [Fact(DisplayName = "dpNameChubatova1")]
         public void Test1chubatova()
         {
+            Assert.Equal("a", "b");
         }
 
         [Theory(DisplayName = "dpNameChubatova2")]
