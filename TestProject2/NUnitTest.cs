@@ -11,9 +11,9 @@ namespace TestProject2
 
         [Test]
         [Category("Short")]
-        public void Test1withdisplName()
+        public void Test1NunitSimple()
         {
-            Assert.Pass();
+            Assert.Fail();
         }
         
         
