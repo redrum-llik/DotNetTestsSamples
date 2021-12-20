@@ -10,7 +10,7 @@ namespace TestProject1
     public class dsplNameXunit1
     {
         [Fact(DisplayName = "dpNameChubatova1")]
-        public void Test1()
+        public void Test1chubatova()
         {
         }
 
@@ -19,7 +19,7 @@ namespace TestProject1
         [InlineData("b")]
         [InlineData("c")]
         [InlineData("d")]
-        public void Test2(string str)
+        public void Test2chubatova(string str)
         {
             Assert.Equal("a", "a");
         }
@@ -29,7 +29,7 @@ namespace TestProject1
     public class dsplNameXunit2
     {
         [Fact(DisplayName = "dpNameChubatova3")]
-        public void Test1()
+        public void Test1chubatova()
         {
         }
 
@@ -38,7 +38,7 @@ namespace TestProject1
         [InlineData("b")]
         [InlineData("c")]
         [InlineData("d")]
-        public void Test2(string str)
+        public void Test2chubatova(string str)
         {
             Assert.Equal(str, "a");
         }
