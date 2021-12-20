@@ -6,8 +6,8 @@ namespace TestProject2
     {
 
 
-[TestCase(5,TestName="dsplNameNUNit")]
-public void TestCasewithDsplMNameNunit() {
+[TestCase(5,TestName="dsplNameNUNitver1")]
+public void TestCasewithDsplMNameNunitver1() {
     Assert.AreEqual(5, 4);
 }
 
