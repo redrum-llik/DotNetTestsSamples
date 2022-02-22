@@ -15,7 +15,7 @@ namespace TestProject4
             Assert.Equal("a", "b");
         }
 
-        /* [Theory(DisplayName = "dpNameChubatova2")]
+         [Theory(DisplayName = "dpNameChubatova2")]
         [InlineData("a")]
         [InlineData("b")]
         [InlineData("c")]
@@ -23,18 +23,18 @@ namespace TestProject4
         public void Test2chubatova(string str)
         {
             Assert.Equal("a", "a");
-        }*/
+        }
     }
     
     
-    public class dsplNameXunit21
+    /*public class dsplNameXunit21
     {
         //[Fact(DisplayName = "dpNameChubatova3")]
         public void Test1chubatova()
         {
         }
 
-        /* [Theory(DisplayName = "dpNameChubatova4")]
+         [Theory(DisplayName = "dpNameChubatova4")]
         [InlineData("a")]
         [InlineData("b")]
         [InlineData("c")]
@@ -42,6 +42,6 @@ namespace TestProject4
         public void Test2chubatova(string str)
         {
             Assert.Equal(str, "a");
-        }*/
-    }
+        }
+    }*/
 }
