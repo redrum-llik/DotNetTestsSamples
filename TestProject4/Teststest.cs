@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System.Threading;
 
 namespace TestProject4
 {
@@ -10,6 +11,7 @@ namespace TestProject4
  
         public void Test1NunitSimplever1()
         {
+            Thread.Sleep(30000);
             Assert.Fail();
         }
         
