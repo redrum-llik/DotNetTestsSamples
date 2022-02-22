@@ -5,7 +5,7 @@ using System.Diagnostics.Contracts;
 using Xunit;
 
 
-namespace TestProject1
+namespace TestProject4
 {
     public class Teststest
     {
