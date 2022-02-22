@@ -7,16 +7,16 @@ using Xunit;
 
 namespace TestProject4
 {
-    public class Teststest
+    public class dsplNameXunit1
     {
-
+        
         public void Test1chubatova()
         {
             Assert.Equal("a", "b");
         }
 
+        
     }
     
     
-
 }
