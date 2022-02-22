@@ -1,17 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+using NUnit.Framework;
 
-    <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
-        <Nullable>enable</Nullable>
+namespace TestProject4
+{
+    public class UnitTest1
+    {
 
-        <IsPackable>false</IsPackable>
-    </PropertyGroup>
 
-    <ItemGroup>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0"/>
-        <PackageReference Include="NUnit" Version="3.13.2"/>
-        <PackageReference Include="NUnit3TestAdapter" Version="4.0.0"/>
-        <PackageReference Include="coverlet.collector" Version="3.1.0"/>
-    </ItemGroup>
-
-</Project>
+        [Test]
+ 
+        public void Test1NunitSimplever1()
+        {
+            Assert.Fail();
+        }
+        
+        
+        
+    }
+}
