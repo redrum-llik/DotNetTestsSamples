@@ -11,7 +11,7 @@ namespace TestProject4
  
         public void Test1NunitSimplever1()
         {
-            Thread.Sleep(60);
+            //Thread.Sleep(60);
             Assert.Fail();
         }
         
