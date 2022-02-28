@@ -10,8 +10,6 @@ namespace TestProject2
         }
 
         [Test]
-        [TestCategory("IgnoreOnBuild")]
-        
         public void Test1NunitSimplever1()
         {
             Assert.Fail();
