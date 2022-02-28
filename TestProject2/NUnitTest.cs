@@ -8,14 +8,14 @@ namespace TestProject2
         public void Setup()
         {
         }
-
+ [Ignore("Ignore a test")]
         [Test]
         public void Test1NunitSimplever1()
         {
             Assert.Fail();
         }
         
-        
+         [Ignore("Ignore a test")]
         [Test]
          [Category("Short")]
         [TestCase("chrome", "72.0", "Windows 10")]
@@ -26,7 +26,7 @@ namespace TestProject2
         }
         
 
-        
+         [Ignore("Ignore a test")]
         [Test, Sequential]
          [Category("Long")]
         public void NunitSequentialParametersTest(
@@ -36,7 +36,7 @@ namespace TestProject2
          Assert.Pass();
         }
 
-        
+     [Ignore("Ignore a test")]    
 [Test]
 [Category("Long")]
 public void NUnitRangeTest(
