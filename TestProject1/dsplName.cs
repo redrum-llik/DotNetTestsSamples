@@ -10,7 +10,7 @@ namespace TestProject1
     public class dsplNameXunit1
     {
         [Fact(DisplayName = "dpNameChubatova1")]
-        [TestCategory("IgnoreOnBuild")]
+        
         public void Test1chubatova()
         {
             Assert.Equal("a", "b");
