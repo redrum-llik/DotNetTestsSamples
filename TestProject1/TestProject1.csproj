@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net6.0</TargetFrameworks>
+        <TargetFrameworks>net452</TargetFrameworks>
         <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
          <PreserveCompilationContext>false</PreserveCompilationContext>
         <Nullable>enable</Nullable>
