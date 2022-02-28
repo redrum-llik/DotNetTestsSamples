@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFrameworks>net6.0</TargetFrameworks>
+         <PreserveCompilationContext>false</PreserveCompilationContext>
         <Nullable>enable</Nullable>
         <LangVersion>preview</LangVersion>
         <IsPackable>false</IsPackable>
