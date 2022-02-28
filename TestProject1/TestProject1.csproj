@@ -2,11 +2,13 @@
 
     <PropertyGroup>
         <TargetFrameworks>net6.0</TargetFrameworks>
+        <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
          <PreserveCompilationContext>false</PreserveCompilationContext>
         <Nullable>enable</Nullable>
         <LangVersion>preview</LangVersion>
         <IsPackable>false</IsPackable>
         <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        
     </PropertyGroup>
 
     <ItemGroup>
