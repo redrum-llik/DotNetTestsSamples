@@ -13,7 +13,7 @@ namespace TestProject4
         public void Test1NunitSimplever1()
         {
             //Thread.Sleep(60);
-            Console.WriteLine("##teamcity[buildNumber 'hi']");
+            Console.WriteLine("hi");
             Assert.Fail();
         }
         
