@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Threading;
+using System;
 
 namespace TestProject4
 {
@@ -12,6 +13,7 @@ namespace TestProject4
         public void Test1NunitSimplever1()
         {
             //Thread.Sleep(60);
+            Console.WriteLine("##teamcity[buildNumber 'hi']");
             Assert.Fail();
         }
         
