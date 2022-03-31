@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>net60</TargetFramework>
         <Nullable>enable</Nullable>
-
+<GenerateProgramFile>false</GenerateProgramFile>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
 
