@@ -9,7 +9,7 @@ using Serilog;
     .WriteTo.Console()
     .CreateLogger();
 
-            log.Information(""##teamcity[buildNumber 'abc']", VersionFull");
+            log.Information("##teamcity[buildNumber 'abc']", VersionFull);
 
          }    
       }  
