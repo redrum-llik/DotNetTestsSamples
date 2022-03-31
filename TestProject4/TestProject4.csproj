@@ -6,6 +6,14 @@
 <GenerateProgramFile>false</GenerateProgramFile>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
+        <Task>
+      <Using Namespace="System" />
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+            Console.WriteLine("Hello from MSBuild");
+        ]]>
+      </Code>
+    </Task>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0"/>
