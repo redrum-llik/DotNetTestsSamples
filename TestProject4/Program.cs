@@ -1,10 +1,16 @@
 using System;  
+using Serilog;
+
   public class FibonacciExample  
    {  
      public static void Main()  
       {  
-
-         Console.Write("Enter the number of elements: ");    
+Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Debug()
+            .WriteTo.Console()
+            .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
+            .CreateLogger();
+         Log.Debug("Foo started");
 
          }    
       }  
