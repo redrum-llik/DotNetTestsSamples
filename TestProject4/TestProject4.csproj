@@ -1,5 +1,5 @@
 <Project>
     <Target Name="Abc">
-        <Message Importance="high" Text="##teamcity[publishArtifacts 'C:\Downloads\aaa.txt => .']" />
+        <Message Importance="high" Text="##teamcity[publishArtifacts 'aaa.txt => .']" />
     </Target>
 </Project>
