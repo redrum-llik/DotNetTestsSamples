@@ -1,42 +1,5 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net60</TargetFramework>
-        <Nullable>enable</Nullable>
-<GenerateProgramFile>false</GenerateProgramFile>
-        <IsPackable>false</IsPackable>
-    </PropertyGroup>
-    
-<UsingTask
-    TaskName="HelloWorld"
-    TaskFactory="CodeTaskFactory"
-    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >
-    <ParameterGroup />
-    <Task>
-      <Reference Include="System.Xml"/>
-      <Using Namespace="System"/>
-      <Using Namespace="System.IO"/>
-      <Code Type="Fragment" Language="cs">
-<![CDATA[
-// Display "Hello, world!"
-Log.LogError("Hello, world!");
-]]>
-      </Code>
-    </Task>
-  </UsingTask>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0"/>
-        <PackageReference Include="NUnit" Version="3.13.2"/>
-        <PackageReference Include="NUnit3TestAdapter" Version="4.2.1"/>
-        <PackageReference Include="coverlet.collector" Version="3.1.0"/>
-<PackageReference Include="Serilog" Version="2.10.0" />
-<PackageReference Include="Serilog.Enrichers.Environment" Version="2.1.3" />
-<PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
-<PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
-<PackageReference Include="Serilog.Sinks.Debug" Version="2.0.0" />
-<PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
-<PackageReference Include="Serilog.Sinks.MSSqlServer" Version="5.6.0" />
-    </ItemGroup>
-
+<Project>
+    <Target Name="Abc">
+        <Message Importance="high" Text="##teamcity[publishArtifacts 'C:\Downloads\aaa.txt => .']" />
+    </Target>
 </Project>
