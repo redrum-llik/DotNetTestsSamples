@@ -5,12 +5,13 @@ using Serilog;
    {  
      public static void Main()  
       {  
-Log.Logger = new LoggerConfiguration()
-            .MinimumLevel.Debug()
-            .WriteTo.Console()
-            .WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
-            .CreateLogger();
-         Log.Debug("Foo started");
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .WriteTo.Console()
+                .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
+                .CreateLogger();
+
+            Log.Information("Hello, world!");
 
          }    
       }  
