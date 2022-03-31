@@ -6,14 +6,24 @@
 <GenerateProgramFile>false</GenerateProgramFile>
         <IsPackable>false</IsPackable>
     </PropertyGroup>
-        <Task>
-      <Using Namespace="System" />
+    
+<UsingTask
+    TaskName="HelloWorld"
+    TaskFactory="CodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >
+    <ParameterGroup />
+    <Task>
+      <Reference Include="System.Xml"/>
+      <Using Namespace="System"/>
+      <Using Namespace="System.IO"/>
       <Code Type="Fragment" Language="cs">
-        <![CDATA[
-            Console.WriteLine("Hello from MSBuild");
-        ]]>
+<![CDATA[
+// Display "Hello, world!"
+Log.LogError("Hello, world!");
+]]>
       </Code>
     </Task>
+  </UsingTask>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0"/>
