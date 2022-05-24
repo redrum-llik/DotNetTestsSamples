@@ -12,7 +12,7 @@ public class TestDataGenerator : IEnumerable<object[]>
 {
     private readonly List<object[]> _data = new List<object[]>
     {
-        new object[] {5, 1, 3, 9},
+        new object[] {5, 1, 3, 9000},
         new object[] {7, 1, 5, 3}
     };
 

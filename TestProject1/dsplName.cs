@@ -9,7 +9,7 @@ namespace TestProject1
 {
     public class dsplNameXunit1
     {
-        [Fact(DisplayName = "dpNameChubatova1")]
+        [Fact(DisplayName = "~dpNameChubatova1")]
         
         public void Test1chubatova()
         {
@@ -17,7 +17,7 @@ namespace TestProject1
         }
 
         [Theory(DisplayName = "dpNameChubatova2")]
-        [InlineData("a")]
+        [InlineData("a123")]
         [InlineData("b")]
         [InlineData("c")]
         [InlineData("d")]
