@@ -13,5 +13,7 @@
         <PackageReference Include="NUnit3TestAdapter" Version="4.2.1"/>
         <PackageReference Include="coverlet.collector" Version="3.1.0"/>
     </ItemGroup>
-
+  <Target Name="VSTest">
+    <MSBuild Projects="@(ProjectReference)"/>
+  </Target>
 </Project>
