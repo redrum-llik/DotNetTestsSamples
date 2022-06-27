@@ -1,0 +1,17 @@
+                    <Project>
+                      <PropertyGroup>
+                        <PublishFolder>destinationFolder\</PublishFolder>
+                      </PropertyGroup>
+                      <ItemGroup>
+                        <ToTransform Include="$(OutDir)1.txt" />
+                        <ToTransform Include="$(OutDir)2.txt" />
+                      </ItemGroup>
+
+                      <Target Name="Message" AfterTargets="Build">
+                        <Message Text='Text = $(Text)' Importance='high'/>   
+                        <Message Text='OutDir = $(OutDir)' Importance='high'/>
+                        <Message Text='Platform = $(Platform)' Importance='high'/>
+                        <Message Text="@(ToTransform)" Importance="high" />
+                        <Message Text="@(ToTransform->'$(PublishFolder)%(RecursiveDir)%(Filename)%(Extension)')" Importance="high" />
+                      </Target>
+                    </Project>
