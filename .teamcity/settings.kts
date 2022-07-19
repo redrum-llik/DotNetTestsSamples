@@ -33,6 +33,10 @@ project {
 object Net : BuildType({
     name = "net"
 
+    params {
+        param("ф", "ф")
+    }
+
     vcs {
         root(DslContext.settingsRoot)
     }
