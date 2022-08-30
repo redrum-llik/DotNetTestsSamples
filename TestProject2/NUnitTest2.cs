@@ -14,7 +14,7 @@ namespace TestProject2
         [Test]
         public void Test1NunitSimplever1()
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(10);
             Assert.Fail();
         }
         
@@ -25,7 +25,7 @@ namespace TestProject2
         [TestCase("internet explorer", "11.0", "Windows 10")]
         public void Test2(string str1, string str2, string str3)
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(10);
             Assert.Pass();
         }
         
@@ -37,7 +37,7 @@ namespace TestProject2
          [Values(1,2,3)] int x,
         [Values("A","B")] string s)
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(10);
          Assert.Pass();
         }
 
@@ -48,7 +48,7 @@ public void NUnitRangeTest(
     [Values(1, 2, 3)] int x,
     [Range(0.2, 0.6, 0.2)] double d)
 {
-    Thread.Sleep(1000);
+    Thread.Sleep(10);
     Assert.Pass();
 }
      
