@@ -2,6 +2,3 @@ hi
 ss
 asd
 sdf
-s
-asd
-df
