@@ -6,7 +6,7 @@ using Xunit;
 using System.Threading;
 
 
-namespace TestProject1
+namespace TestProject7
 {
     public class xUnitLong1
     {
