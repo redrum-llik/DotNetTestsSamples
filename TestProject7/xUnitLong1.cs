@@ -13,6 +13,7 @@ namespace TestProject7
         [Fact]
         public void Test1()
         {
+             Thread.Sleep(60000);
         }
 
         [Theory]
@@ -21,7 +22,7 @@ namespace TestProject7
         [InlineData("c")]
          public void Test11(string str)
         {
-                    Thread.Sleep(60);
+                    Thread.Sleep(60000);
                     Assert.True(str == "a");
         
         }
