@@ -22,7 +22,7 @@ namespace TestProject7
          public void Test11(string str)
         {
                     Thread.Sleep(60);
-                    Assert.true(str = "a");
+                    Assert.true(str == "a", "This is my message");
         
         }
     }
