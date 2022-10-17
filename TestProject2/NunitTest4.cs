@@ -14,7 +14,7 @@ namespace TestProject2
         [Test]
         public void Test1NunitSimplever1()
         {
-            Thread.Sleep(4);
+            Thread.Sleep(5);
             Assert.Pass();
         }
         
