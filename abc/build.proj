@@ -8,7 +8,8 @@
                       </ItemGroup>
 
                       <Target Name="Message" AfterTargets="Build">
-                        <Message Text='Text = $(Text)' Importance='high'/>   
+                        <Message Text='Text = $(Text)' Importance='high'/>  
+                         <Message Text='Text2 = $(Text2)' Importance='high'/> 
                         <Message Text='OutDir = $(OutDir)' Importance='high'/> 
                         <Message Text='Platform = $(Platform)' Importance='high'/>
                          <Message Text="@(ToTransform)" Importance="high" />
