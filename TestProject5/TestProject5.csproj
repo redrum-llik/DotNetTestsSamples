@@ -13,5 +13,16 @@
         <PackageReference Include="NUnit3TestAdapter" Version="4.1.0"/>
         <PackageReference Include="coverlet.collector" Version="3.1.0"/>
     </ItemGroup>
+    
+ <Target Name="SwitchToAnyCpu" BeforeTargets="CoreCompile" >
+    <Message Text="Current Platform=anycpu" />
+    <Message Text="Current PlatformTarget=anycpu" />
+    <PropertyGroup>
+      <Platform>anycpu</Platform>
+      <PlatformTarget>anycpu</PlatformTarget>
+    </PropertyGroup>
+    <Message Text="New Platform=anycpu" />
+    <Message Text="New PlatformTarget=anycpu" />
+  </Target>
 
 </Project>
