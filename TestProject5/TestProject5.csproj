@@ -16,13 +16,12 @@
     
  <Target Name="SwitchToAnyCpu" BeforeTargets="CoreCompile" >
     <Message Text="Current Platform=x64" />
-    <Message Text="Current PlatformTarget=anycpu" />
+
     <PropertyGroup>
-      <Platform>anycpu</Platform>
-      <PlatformTarget>anycpu</PlatformTarget>
+      <Platform>x64</Platform>
+      <PlatformTarget>x64</PlatformTarget>
     </PropertyGroup>
-    <Message Text="New Platform=anycpu" />
-    <Message Text="New PlatformTarget=anycpu" />
+
   </Target>
 
 </Project>
