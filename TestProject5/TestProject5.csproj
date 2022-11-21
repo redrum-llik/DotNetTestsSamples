@@ -15,11 +15,11 @@
     </ItemGroup>
     
  <Target Name="SwitchToAnyCpu" BeforeTargets="CoreCompile" >
-    <Message Text="Current Platform=x64" />
+    <Message Text="Current Platform=jhjhj" />
 
     <PropertyGroup>
-      <Platform>64</Platform>
-      <PlatformTarget>x64</PlatformTarget>
+      <Platform>hghg</Platform>
+      <PlatformTarget>uhuhuy</PlatformTarget>
     </PropertyGroup>
 
   </Target>
