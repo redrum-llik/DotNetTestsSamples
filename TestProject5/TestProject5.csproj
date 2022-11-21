@@ -18,8 +18,8 @@
     <Message Text="Current Platform=jhjhj" />
 
     <PropertyGroup>
-      <Platform>anycpu</Platform>
-      <PlatformTarget>anycpu</PlatformTarget>
+      <Platform>x64</Platform>
+      <PlatformTarget>x64</PlatformTarget>
     </PropertyGroup>
 
   </Target>
