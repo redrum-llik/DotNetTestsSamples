@@ -1,0 +1,6 @@
+﻿linux-arm.dbg/libJetBrains.Dpa.Collector.so            libjetbrains.dpa.collector.so/elf-buildid-23381eaaef3d0dd02ab1a157a141e28b7d1375ac/libjetbrains.dpa.collector.so
+linux-arm.dbg/libmono-profiler-jb.so                   libmono-profiler-jb.so/elf-buildid-f0ba923b15657de9db552f5f01820680351ac1da/libmono-profiler-jb.so
+linux-arm.dbg/libevent_pipe_timeline_profiler.so       libevent_pipe_timeline_profiler.so/elf-buildid-2f0c7f887e3acfe8dcb5c4c1c217c529602338aa/libevent_pipe_timeline_profiler.so
+linux-arm.dbg/libJetBrains.Dpa.Collector.so.debug      _.debug/elf-buildid-sym-23381eaaef3d0dd02ab1a157a141e28b7d1375ac/_.debug
+linux-arm.dbg/libmono-profiler-jb.so.debug             _.debug/elf-buildid-sym-f0ba923b15657de9db552f5f01820680351ac1da/_.debug
+linux-arm.dbg/libevent_pipe_timeline_profiler.so.debug _.debug/elf-buildid-sym-2f0c7f887e3acfe8dcb5c4c1c217c529602338aa/_.debug

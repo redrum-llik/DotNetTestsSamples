@@ -1,0 +1,3 @@
+﻿linux-musl-arm64/libJetBrains.Dpa.Collector.so.debug      _.debug/elf-buildid-sym-c26bef8187e97f5d43668eb3e478bf8000ee91f5/_.debug
+linux-musl-arm64/libmono-profiler-jb.so.debug             _.debug/elf-buildid-sym-09e4a0bc8f5bea7733b53a02582ebc541ec784cc/_.debug
+linux-musl-arm64/libevent_pipe_timeline_profiler.so.debug _.debug/elf-buildid-sym-b4eceda2181571d2960f8745b23f83e892c835bb/_.debug

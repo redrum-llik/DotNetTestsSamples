@@ -1,0 +1,12 @@
+﻿windows-x64.dbg/JetBrains.Process.Elevator.dll   jetbrains.process.elevator.dll/6361186C4f8000/jetbrains.process.elevator.dl_
+windows-x64.dbg/JetBrains.Etw.Collector.Host.exe jetbrains.etw.collector.host.exe/636118905c1000/jetbrains.etw.collector.host.ex_
+windows-x64.dbg/JetBrains.Etw.Collector.exe      jetbrains.etw.collector.exe/636119E02ba3000/jetbrains.etw.collector.ex_
+windows-x64.dbg/JetBrains.Dpa.Collector.exe      jetbrains.dpa.collector.exe/63611A40987000/jetbrains.dpa.collector.ex_
+windows-x64.dbg/mono-profiler-jb.dll             mono-profiler-jb.dll/63611AB7c60000/mono-profiler-jb.dl_
+windows-x64.dbg/event_pipe_timeline_profiler.dll event_pipe_timeline_profiler.dll/63611B24f32000/event_pipe_timeline_profiler.dl_
+windows-x64.dbg/JetBrains.Process.Elevator.pdb   jetbrains.process.elevator.pdb/1164d40a873d45aa83a5dd453c6b38501/jetbrains.process.elevator.pd_
+windows-x64.dbg/JetBrains.Etw.Collector.Host.pdb jetbrains.etw.collector.host.pdb/6a3dcb22650c4749bef5b4e47181d0cc1/jetbrains.etw.collector.host.pd_
+windows-x64.dbg/JetBrains.Etw.Collector.pdb      jetbrains.etw.collector.pdb/269f73fe559f44f58ab8445c93d257591/jetbrains.etw.collector.pd_
+windows-x64.dbg/JetBrains.Dpa.Collector.pdb      jetbrains.dpa.collector.pdb/5d92d1dc2f8f4fcabdf7a4faef93bda81/jetbrains.dpa.collector.pd_
+windows-x64.dbg/mono-profiler-jb.pdb             mono-profiler-jb.pdb/fede900ddd8248d2aa47e87177d6b85b1/mono-profiler-jb.pd_
+windows-x64.dbg/event_pipe_timeline_profiler.pdb event_pipe_timeline_profiler.pdb/6658d14b6cdc483c8c693f6462992d201/event_pipe_timeline_profiler.pd_

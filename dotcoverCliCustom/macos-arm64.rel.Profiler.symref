@@ -1,0 +1,3 @@
+﻿macos-arm64/libJetBrains.Profiler.Core.dylib.dSYM/Contents/Resources/DWARF/libJetBrains.Profiler.Core.dylib       _.dwarf/mach-uuid-sym-0fbd0ba2693c3c4ca87afc01f490c332/_.dwarf
+macos-arm64/libJetBrains.Profiler.CoreApi.dylib.dSYM/Contents/Resources/DWARF/libJetBrains.Profiler.CoreApi.dylib _.dwarf/mach-uuid-sym-d271f3b59e223a169d88fd2c30a48cff/_.dwarf
+macos-arm64/JetBrains.Profiler.PdbServer.dSYM/Contents/Resources/DWARF/JetBrains.Profiler.PdbServer               _.dwarf/mach-uuid-sym-e0d5e05e1647348ab0d779466b4e8813/_.dwarf

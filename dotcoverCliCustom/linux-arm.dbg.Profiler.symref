@@ -1,0 +1,6 @@
+﻿linux-arm.dbg/libJetBrains.Profiler.Core.so          libjetbrains.profiler.core.so/elf-buildid-60877e83b0e235aa079764e4754bb8762d2eb59e/libjetbrains.profiler.core.so
+linux-arm.dbg/libJetBrains.Profiler.CoreApi.so       libjetbrains.profiler.coreapi.so/elf-buildid-b3e0bfc896b113c22f93201858774f0fb59ba611/libjetbrains.profiler.coreapi.so
+linux-arm.dbg/JetBrains.Profiler.PdbServer           jetbrains.profiler.pdbserver/elf-buildid-ea0a8f4f4dd49f9d2d69431976ca3307489096ed/jetbrains.profiler.pdbserver
+linux-arm.dbg/libJetBrains.Profiler.Core.so.debug    _.debug/elf-buildid-sym-60877e83b0e235aa079764e4754bb8762d2eb59e/_.debug
+linux-arm.dbg/libJetBrains.Profiler.CoreApi.so.debug _.debug/elf-buildid-sym-b3e0bfc896b113c22f93201858774f0fb59ba611/_.debug
+linux-arm.dbg/JetBrains.Profiler.PdbServer.debug     _.debug/elf-buildid-sym-ea0a8f4f4dd49f9d2d69431976ca3307489096ed/_.debug
