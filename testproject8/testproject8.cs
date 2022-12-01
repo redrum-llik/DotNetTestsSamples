@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using System.Threading;
 
-namespace TestProject8
+namespace testproject8
 {
     public class UnitTest1
     {
