@@ -17,6 +17,16 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_15" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="echo $HOME" />
+          <param name="teamcity.kubernetes.executor.container.image" value="registry.jetbrains.team/p/chubatova-test-1/tc-chubatova-registry/python-with-java" />
+          <param name="teamcity.kubernetes.executor.extension.enabled" value="true" />
+          <param name="teamcity.kubernetes.executor.pull.policy" value="IfNotPresent" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Dckr_HttpsGithubComChubatovaTigerDotNetTestsSamples" />
