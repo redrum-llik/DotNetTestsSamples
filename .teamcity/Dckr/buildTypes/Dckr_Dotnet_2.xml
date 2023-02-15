@@ -3,6 +3,9 @@
   <name>dotnet (1)</name>
   <description />
   <settings>
+    <disabled-settings>
+      <setting-ref ref="RUNNER_11" />
+    </disabled-settings>
     <parameters />
     <build-runners>
       <runner id="RUNNER_11" name="" type="dotnet">
