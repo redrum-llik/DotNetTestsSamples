@@ -18,8 +18,8 @@ namespace TestProject7
 
         [Theory]
         [InlineData("a")]
-        [InlineData("b")]
-        [InlineData("c")]
+        [InlineData("a")]
+        [InlineData("a")]
          public void Test11(string str)
         {
                     Thread.Sleep(60);
