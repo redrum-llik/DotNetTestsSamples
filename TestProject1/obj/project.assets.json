@@ -8,6 +8,22 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "coverlet.msbuild/2.3.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/coverlet.msbuild.props": {},
+          "build/netstandard2.0/coverlet.msbuild.targets": {}
+        }
+      },
+      "IoC.Container/1.3.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/IoC.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/IoC.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/16.11.0": {
         "type": "package",
         "compile": {
@@ -1592,6 +1608,27 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "TeamCity.ServiceMessages/3.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/TeamCity.ServiceMessages.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/TeamCity.ServiceMessages.dll": {}
+        }
+      },
+      "TeamCity.VSTest.TestAdapter/1.0.36": {
+        "type": "package",
+        "dependencies": {
+          "IoC.Container": "1.3.7",
+          "Microsoft.TestPlatform.ObjectModel": "15.9.2",
+          "NETStandard.Library": "1.6.1",
+          "TeamCity.ServiceMessages": "3.0.13"
+        },
+        "build": {
+          "build/netcoreapp1.0/TeamCity.VSTest.TestAdapter.props": {}
+        }
+      },
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -1723,6 +1760,115 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "coverlet.msbuild/2.3.0": {
+      "sha512": "WvPnBhTykRyNsKshOeyP+3Q5juDAz2uFUXeAG2mKRKnv5HAoQnhZX9CC45Ri+mgbHTMmdDR6SJQ38THHbFQ6Yg==",
+      "type": "package",
+      "path": "coverlet.msbuild/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard2.0/ConsoleTables.dll",
+        "build/netstandard2.0/Microsoft.Build.Framework.dll",
+        "build/netstandard2.0/Microsoft.Build.Utilities.Core.dll",
+        "build/netstandard2.0/Microsoft.CSharp.dll",
+        "build/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/Newtonsoft.Json.dll",
+        "build/netstandard2.0/System.AppContext.dll",
+        "build/netstandard2.0/System.Collections.Concurrent.dll",
+        "build/netstandard2.0/System.Collections.Immutable.dll",
+        "build/netstandard2.0/System.Collections.NonGeneric.dll",
+        "build/netstandard2.0/System.Dynamic.Runtime.dll",
+        "build/netstandard2.0/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard2.0/System.Linq.Expressions.dll",
+        "build/netstandard2.0/System.Linq.dll",
+        "build/netstandard2.0/System.ObjectModel.dll",
+        "build/netstandard2.0/System.Private.DataContractSerialization.dll",
+        "build/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "build/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "build/netstandard2.0/System.Reflection.Emit.dll",
+        "build/netstandard2.0/System.Reflection.Metadata.dll",
+        "build/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "build/netstandard2.0/System.Resources.Reader.dll",
+        "build/netstandard2.0/System.Runtime.Numerics.dll",
+        "build/netstandard2.0/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard2.0/System.Runtime.Serialization.Xml.dll",
+        "build/netstandard2.0/System.Security.Cryptography.Primitives.dll",
+        "build/netstandard2.0/System.Text.RegularExpressions.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "build/netstandard2.0/System.Threading.Tasks.Parallel.dll",
+        "build/netstandard2.0/System.Threading.Thread.dll",
+        "build/netstandard2.0/System.Threading.ThreadPool.dll",
+        "build/netstandard2.0/System.Threading.dll",
+        "build/netstandard2.0/System.Xml.ReaderWriter.dll",
+        "build/netstandard2.0/System.Xml.XDocument.dll",
+        "build/netstandard2.0/System.Xml.XmlDocument.dll",
+        "build/netstandard2.0/System.Xml.XmlSerializer.dll",
+        "build/netstandard2.0/coverlet.core.dll",
+        "build/netstandard2.0/coverlet.msbuild.props",
+        "build/netstandard2.0/coverlet.msbuild.targets",
+        "build/netstandard2.0/coverlet.msbuild.tasks.deps.json",
+        "build/netstandard2.0/coverlet.msbuild.tasks.dll",
+        "build/netstandard2.0/runtimes/linux/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/osx/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/netstandard2.0/runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
+        "build/netstandard2.0/runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "coverlet.msbuild.2.3.0.nupkg.sha512",
+        "coverlet.msbuild.nuspec"
+      ]
+    },
+    "IoC.Container/1.3.7": {
+      "sha512": "50tllATitvCwWkqUZXO+PLMPsVhBgQrWWZV9jCYgNmNmkUQiJgwBw/CuWtzhkot3G3UjlQvHFYotqUbgMB6AjA==",
+      "type": "package",
+      "path": "ioc.container/1.3.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "common/icon.png",
+        "ioc.container.1.3.7.nupkg.sha512",
+        "ioc.container.nuspec",
+        "lib/net40/IoC.dll",
+        "lib/net45/IoC.dll",
+        "lib/net46/IoC.dll",
+        "lib/net47/IoC.dll",
+        "lib/net48/IoC.dll",
+        "lib/net5.0/IoC.dll",
+        "lib/net6.0/IoC.dll",
+        "lib/netcoreapp1.0/IoC.dll",
+        "lib/netcoreapp1.1/IoC.dll",
+        "lib/netcoreapp2.0/IoC.dll",
+        "lib/netcoreapp2.1/IoC.dll",
+        "lib/netcoreapp2.2/IoC.dll",
+        "lib/netcoreapp3.0/IoC.dll",
+        "lib/netcoreapp3.1/IoC.dll",
+        "lib/netstandard1.0/IoC.dll",
+        "lib/netstandard1.1/IoC.dll",
+        "lib/netstandard1.2/IoC.dll",
+        "lib/netstandard1.3/IoC.dll",
+        "lib/netstandard1.4/IoC.dll",
+        "lib/netstandard1.5/IoC.dll",
+        "lib/netstandard1.6/IoC.dll",
+        "lib/netstandard2.0/IoC.dll",
+        "lib/netstandard2.1/IoC.dll",
+        "lib/uap10.0.10240/IoC.dll"
       ]
     },
     "Microsoft.CodeCoverage/16.11.0": {
@@ -5828,6 +5974,47 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "TeamCity.ServiceMessages/3.0.13": {
+      "sha512": "YXIDS9mkyQvxfsdkTD7PG3kLGnI5MIctqLsIjotGie8f6Ky5bumxKnCkbr8VOagHn47H8myCRpLyhsMOvlSU+Q==",
+      "type": "package",
+      "path": "teamcity.servicemessages/3.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/TeamCity.ServiceMessages.dll",
+        "lib/net40/TeamCity.ServiceMessages.dll",
+        "lib/net45/TeamCity.ServiceMessages.dll",
+        "lib/netcoreapp1.0/TeamCity.ServiceMessages.dll",
+        "lib/netcoreapp2.0/TeamCity.ServiceMessages.dll",
+        "lib/netcoreapp3.0/TeamCity.ServiceMessages.dll",
+        "lib/netstandard1.3/TeamCity.ServiceMessages.dll",
+        "teamcity.servicemessages.3.0.13.nupkg.sha512",
+        "teamcity.servicemessages.nuspec"
+      ]
+    },
+    "TeamCity.VSTest.TestAdapter/1.0.36": {
+      "sha512": "kbCRkS670su2QjZsS6F/R3GPllL2uSa5wLRLFSbLocd08EN1f2Ahy0NKo+V6jgcvm1z9o0Ojww6hCaKx09vn2w==",
+      "type": "package",
+      "path": "teamcity.vstest.testadapter/1.0.36",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_common/icon.png",
+        "build/_common/vstest12/TeamCity.ServiceMessages.dll",
+        "build/_common/vstest12/TeamCity.VSTest.TestAdapter.dll",
+        "build/_common/vstest14/IoC.dll",
+        "build/_common/vstest14/TeamCity.ServiceMessages.dll",
+        "build/_common/vstest14/TeamCity.VSTest.TestAdapter.dll",
+        "build/_common/vstest15/IoC.dll",
+        "build/_common/vstest15/TeamCity.ServiceMessages.dll",
+        "build/_common/vstest15/TeamCity.VSTest.TestAdapter.dll",
+        "build/_common/vstest15/TeamCity.VSTest.TestLogger.dll",
+        "build/net35/TeamCity.VSTest.TestAdapter.props",
+        "build/netcoreapp1.0/TeamCity.VSTest.TestAdapter.props",
+        "teamcity.vstest.testadapter.1.0.36.nupkg.sha512",
+        "teamcity.vstest.testadapter.nuspec"
+      ]
+    },
     "xunit/2.4.1": {
       "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
       "type": "package",
@@ -5967,25 +6154,27 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 16.11.0",
+      "TeamCity.VSTest.TestAdapter >= 1.0.36",
       "coverlet.collector >= 3.1.0",
+      "coverlet.msbuild >= 2.3.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jetbrains\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jetbrains\\Source\\Repos\\DotNetTestsSamples2\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\DotNetTestsSamples\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\jetbrains\\Source\\Repos\\DotNetTestsSamples2\\TestProject1\\TestProject1.csproj",
-      "packagesPath": "C:\\Users\\jetbrains\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jetbrains\\Source\\Repos\\DotNetTestsSamples2\\TestProject1\\obj\\",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\DotNetTestsSamples\\TestProject1\\TestProject1.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\DotNetTestsSamples\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jetbrains\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6015,11 +6204,19 @@
             "target": "Package",
             "version": "[16.11.0, )"
           },
+          "TeamCity.VSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[1.0.36, )"
+          },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "coverlet.msbuild": {
+            "target": "Package",
+            "version": "[2.3.0, )"
           },
           "xunit": {
             "target": "Package",

@@ -9,7 +9,9 @@
       "TestProject1/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.11.0",
+          "TeamCity.VSTest.TestAdapter": "1.0.36",
           "coverlet.collector": "3.1.0",
+          "coverlet.msbuild": "2.3.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
         },
@@ -18,6 +20,15 @@
         }
       },
       "coverlet.collector/3.1.0": {},
+      "coverlet.msbuild/2.3.0": {},
+      "IoC.Container/1.3.7": {
+        "runtime": {
+          "lib/net6.0/IoC.dll": {
+            "assemblyVersion": "1.3.7.0",
+            "fileVersion": "1.3.7.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/16.11.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -1031,6 +1042,22 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "TeamCity.ServiceMessages/3.0.13": {
+        "runtime": {
+          "lib/netcoreapp3.0/TeamCity.ServiceMessages.dll": {
+            "assemblyVersion": "3.0.13.85",
+            "fileVersion": "3.0.13.85"
+          }
+        }
+      },
+      "TeamCity.VSTest.TestAdapter/1.0.36": {
+        "dependencies": {
+          "IoC.Container": "1.3.7",
+          "Microsoft.TestPlatform.ObjectModel": "16.11.0",
+          "NETStandard.Library": "1.6.1",
+          "TeamCity.ServiceMessages": "3.0.13"
+        }
+      },
       "xunit/2.4.1": {
         "dependencies": {
           "xunit.analyzers": "0.10.0",
@@ -1103,6 +1130,20 @@
       "sha512": "sha512-YzYqSRrjoP5lULBhTDcTOjuM4IDPPi6PhFsl4w8EI4WdZhE6llt7E38Tg4CHyrS+QKwyu1+9OwkdDgluOdoBTw==",
       "path": "coverlet.collector/3.1.0",
       "hashPath": "coverlet.collector.3.1.0.nupkg.sha512"
+    },
+    "coverlet.msbuild/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WvPnBhTykRyNsKshOeyP+3Q5juDAz2uFUXeAG2mKRKnv5HAoQnhZX9CC45Ri+mgbHTMmdDR6SJQ38THHbFQ6Yg==",
+      "path": "coverlet.msbuild/2.3.0",
+      "hashPath": "coverlet.msbuild.2.3.0.nupkg.sha512"
+    },
+    "IoC.Container/1.3.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-50tllATitvCwWkqUZXO+PLMPsVhBgQrWWZV9jCYgNmNmkUQiJgwBw/CuWtzhkot3G3UjlQvHFYotqUbgMB6AjA==",
+      "path": "ioc.container/1.3.7",
+      "hashPath": "ioc.container.1.3.7.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.11.0": {
       "type": "package",
@@ -1684,6 +1725,20 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "TeamCity.ServiceMessages/3.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YXIDS9mkyQvxfsdkTD7PG3kLGnI5MIctqLsIjotGie8f6Ky5bumxKnCkbr8VOagHn47H8myCRpLyhsMOvlSU+Q==",
+      "path": "teamcity.servicemessages/3.0.13",
+      "hashPath": "teamcity.servicemessages.3.0.13.nupkg.sha512"
+    },
+    "TeamCity.VSTest.TestAdapter/1.0.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kbCRkS670su2QjZsS6F/R3GPllL2uSa5wLRLFSbLocd08EN1f2Ahy0NKo+V6jgcvm1z9o0Ojww6hCaKx09vn2w==",
+      "path": "teamcity.vstest.testadapter/1.0.36",
+      "hashPath": "teamcity.vstest.testadapter.1.0.36.nupkg.sha512"
     },
     "xunit/2.4.1": {
       "type": "package",
