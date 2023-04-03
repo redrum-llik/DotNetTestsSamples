@@ -2977,11 +2977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos4\\DotNetTestsSamples\\TestProject2\\TestProject2.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos6\\DotNetTestsSamples\\TestProject2\\TestProject2.csproj",
       "projectName": "TestProject2",
-      "projectPath": "C:\\Users\\Administrator\\Source\\Repos4\\DotNetTestsSamples\\TestProject2\\TestProject2.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos6\\DotNetTestsSamples\\TestProject2\\TestProject2.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Source\\Repos4\\DotNetTestsSamples\\TestProject2\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos6\\DotNetTestsSamples\\TestProject2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
