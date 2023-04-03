@@ -6209,11 +6209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\DotNetTestsSamples\\TestProject3\\TestProject3.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos4\\DotNetTestsSamples\\TestProject3\\TestProject3.csproj",
       "projectName": "TestProject3",
-      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\DotNetTestsSamples\\TestProject3\\TestProject3.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos4\\DotNetTestsSamples\\TestProject3\\TestProject3.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\DotNetTestsSamples\\TestProject3\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos4\\DotNetTestsSamples\\TestProject3\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
