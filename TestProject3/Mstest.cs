@@ -12,7 +12,7 @@ namespace TestProject3
         
         [DataTestMethod]
         [DataRow( "Aa", "gb")]
-        [DataRow( "Xx", "Yjs=ddf")]
+        [DataRow( "Xx", "Yjs=df")]
         public void MSTestDataRowTestMethod2(string str1, string str2)
         {
         }
